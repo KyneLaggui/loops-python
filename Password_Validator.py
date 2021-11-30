@@ -10,7 +10,7 @@ Password_value = True
 Character_Special=['!', '@', '#',"$", "%", "^", "&", "*", "(",")","_","+"]
 
 while Password_value:  
-    if (len(User_Password)<15):
+    if (len(User_Password)<=15):
         print(colorama.Fore.RED + "It must contain greater than 15 letters")
         Password_value=False
 
